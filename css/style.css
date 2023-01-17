@@ -39,12 +39,12 @@ nav #logo-text{
     border-radius: 5px;
  }
 
- main .add {
+ main .add{
     position: relative;
-    padding: 10px 50px;
+    padding: 15px 50px;
  }
 
- main .add .separator {
+ main .add .separator{
     width: 1000px;
     background-color: #F6F8F9;
     height: 2px;
@@ -52,4 +52,23 @@ nav #logo-text{
     position: absolute;
     left:0;
     bottom:0;
+ }
+
+ main .add .btn{
+    padding: 6px 14px;
+    border-radius: 5px;
+ }
+
+ main .add .btn.task{
+    background-color:#47ADF1;
+    color: white;
+    border: 2px solid #47ADF1;
+ }
+
+ main .add .btn.section{
+    margin-left: 2px;
+
+    background-color:#FFFFFF;
+    color: #C5CBD0;
+    border: 2px solid #C5CBD0;
  }
