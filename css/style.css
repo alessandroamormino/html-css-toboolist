@@ -30,7 +30,7 @@ nav #logo-text{
 }
 
 /* Main */
- main{
+main{
     background-color: #FFFFFF;
 
     max-width: 1000px;
@@ -39,12 +39,12 @@ nav #logo-text{
     border-radius: 5px;
  }
 
- main .add{
+.add{
     position: relative;
     padding: 15px 50px;
  }
 
- main .add .separator{
+.add .separator{
     width: 1000px;
     background-color: #F6F8F9;
     height: 2px;
@@ -54,18 +54,18 @@ nav #logo-text{
     bottom:0;
  }
 
- main .add .btn{
+.add .btn{
     padding: 6px 14px;
     border-radius: 5px;
  }
 
- main .add .btn.task{
+.add .btn.task{
     background-color:#47ADF1;
     color: white;
     border: 2px solid #47ADF1;
  }
 
- main .add .btn.section{
+.add .btn.section{
     margin-left: 2px;
 
     background-color:#FFFFFF;
@@ -73,24 +73,28 @@ nav #logo-text{
     border: 2px solid #C5CBD0;
  }
 
- main section {
+main section {
     padding: 30px 50px;
  }
 
  /* Task */
-main .details summary h2 {
+section .details summary h2 {
     display: inline-block;
 }
 
-main .details ul{
+section .details summary{
+    margin: 5px;
+}
+
+section .details ul{
     list-style-type: none;
 }
 
-main .details ul li{
+section .details ul li{
     font-size: 0.8em;
 }
 
-main .details ul li .checkmark{
+section .details ul li .checkmark{
     display: inline-block;
     border: 1px solid #58BCA5;
     border-radius: 50%;
@@ -100,3 +104,56 @@ main .details ul li .checkmark{
     line-height: 18px;
     color: #58BCA5;
 }
+
+
+/**************************** TAG *****************************/
+/* Editorial */
+section .details ul li .editorial::after{
+    content: 'Editorial';
+    color: #FFFFFF;
+    background-color: #47ADF1;
+    border-radius: 15px;
+    padding: 5px 10px;
+}
+/* Q1 Goals */
+section .details ul li .q1-goals::after{
+    content: 'Q1 Goals';
+    color: #FFFFFF;
+    background-color: #9C72E4;
+    border-radius: 15px;
+    padding: 5px 10px;
+}
+/* Recruiting */
+section .details ul li .recruiting::after{
+    content: 'Recruiting';
+    color: #FFFFFF;
+    background-color: #64C0A9;
+    border-radius: 15px;
+    padding: 5px 10px;
+}
+/* Mobile */
+section .details ul li .mobile::after{
+    content: 'Mobile';
+    color: #FFFFFF;
+    background-color: #F29E33;
+    border-radius: 15px;
+    padding: 5px 10px;
+}
+/* Website */
+section .details ul li .wensite::after{
+    content: 'Website';
+    color: #FFFFFF;
+    background-color: #D863A1;
+    border-radius: 15px;
+    padding: 5px 10px;
+}
+/* Sales */
+section .details ul li .sales::after{
+    content: 'Sales';
+    color: #FFFFFF;
+    background-color: #B0C926;
+    border-radius: 15px;
+    padding: 5px 10px;
+}
+
+/**************************** /TAG *****************************/
