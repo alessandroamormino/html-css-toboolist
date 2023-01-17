@@ -1,0 +1,30 @@
+/* Resetto i margini */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F6F8F9;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Nav */
+
+nav{
+    background-color: #FFFFFF;
+}
+
+nav #logo{
+    padding: 10px 5px 10px 20px;
+}
+
+nav #logo-text{
+    display: inline-block;
+    line-height: 80px;
+    vertical-align: bottom;
+
+    font-weight: 600;
+    font-size: 3em;
+}
