@@ -28,3 +28,28 @@ nav #logo-text{
     font-weight: 600;
     font-size: 3em;
 }
+
+/* Main */
+ main{
+    background-color: #FFFFFF;
+
+    max-width: 1000px;
+    margin: 50px auto;
+    
+    border-radius: 5px;
+ }
+
+ main .add {
+    position: relative;
+    padding: 10px 50px;
+ }
+
+ main .add .separator {
+    width: 1000px;
+    background-color: #F6F8F9;
+    height: 2px;
+
+    position: absolute;
+    left:0;
+    bottom:0;
+ }
