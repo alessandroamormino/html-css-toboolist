@@ -94,6 +94,8 @@ section .details ul li{
     font-size: 0.8em;
 }
 
+/* Toggle */
+
 section .details ul li .checkmark{
     display: inline-block;
     border: 1px solid #58BCA5;
@@ -105,8 +107,20 @@ section .details ul li .checkmark{
     color: #58BCA5;
 }
 
+section .details ul li .ballot{
+    display: inline-block;
+    border: 1px solid #ED6158;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    text-align: center;
+    line-height: 18px;
+    color: #ED6158;
+}
+/* /Toggle */
 
-/**************************** TAG *****************************/
+
+/* Tags */
 /* Editorial */
 section .details ul li .editorial::after{
     content: 'Editorial';
@@ -156,4 +170,4 @@ section .details ul li .sales::after{
     padding: 5px 10px;
 }
 
-/**************************** /TAG *****************************/
+/* /Tags */
