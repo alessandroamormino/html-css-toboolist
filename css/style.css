@@ -72,3 +72,31 @@ nav #logo-text{
     color: #C5CBD0;
     border: 2px solid #C5CBD0;
  }
+
+ main section {
+    padding: 30px 50px;
+ }
+
+ /* Task */
+main .details summary h2 {
+    display: inline-block;
+}
+
+main .details ul{
+    list-style-type: none;
+}
+
+main .details ul li{
+    font-size: 0.8em;
+}
+
+main .details ul li .checkmark{
+    display: inline-block;
+    border: 1px solid #58BCA5;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    text-align: center;
+    line-height: 18px;
+    color: #58BCA5;
+}
