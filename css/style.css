@@ -155,7 +155,7 @@ section .details ul li .mobile::after{
     padding: 5px 10px;
 }
 /* Website */
-section .details ul li .wensite::after{
+section .details ul li .website::after{
     content: 'Website';
     color: #FFFFFF;
     background-color: #D863A1;
